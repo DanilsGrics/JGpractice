@@ -7,25 +7,27 @@ public class Stock {
     double max;
     double min;
 
-    Stock (String tempCompany, double tempCurrentValue) {
-        company = tempCompany;
-        currentValue = tempCurrentValue;
+    Stock (String newCompany, double newCurrentValue) {
+        company = newCompany;
+        currentValue = newCurrentValue;
+        max = newCurrentValue;
+        min = newCurrentValue;
     }
 
 
-    public void updatePrice (double newPrice) {
-        if (newPrice > 0) {
+    public void updatePrice (double currentValue) {
+        if (currentValue > 0) {
 
-            currentValue = newPrice;
-            if (newPrice > max) {
-                max = newPrice;
+            this.currentValue = currentValue;
+            if (currentValue > max) {
+                max = currentValue;
             }
 
-            if (newPrice < min) {
-                min = newPrice;
+            if (currentValue < min) {
+                min = currentValue;
             }
 
-            System.out.println("Current price of " + this.company + " stock is updated succesfully!");
+            System.out.println("Current price of " + this.company + " stock is updated successfully!");
             this.printInfo();
         }
 
@@ -39,18 +41,10 @@ public class Stock {
     }
 
     public double getMax() {
-        if (max == 0) {
-            max = currentValue;
-        }
-
         return max;
     }
 
     public double getMin() {
-        if (min == 0) {
-            min = currentValue;
-        }
-
         return min;
     }
 
