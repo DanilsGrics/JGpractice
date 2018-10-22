@@ -27,12 +27,12 @@ public class Stock {
                 min = currentValue;
             }
 
-            System.out.println("Current price of " + this.company + " stock is updated successfully!");
-            this.printInfo();
+            System.out.println("Current price of " + company + " stock is updated successfully!");
+            printInfo();
         }
 
         else {
-            System.out.println("Error, new value of " + this.company + " stock cannot be negative or be equivalent to zero!\n");
+            System.out.println("Error, new value of " + company + " stock cannot be negative or be equivalent to zero!\n");
         }
     }
 
@@ -49,8 +49,8 @@ public class Stock {
     }
 
     public void printInfo () {
-        System.out.println("Information about " + this.company + " stock\n" +
-                "Current value: " + this.getCurrentValue() + "\nMaximal value: " + this.getMax() +
-                "\nMinimal value: " + this.getMin() + "\n");
+        System.out.println("Information about " + company + " stock\n" +
+                "Current value: " + getCurrentValue() + "\nMaximal value: " + getMax() +
+                "\nMinimal value: " + getMin() + "\n");
     }
 }
