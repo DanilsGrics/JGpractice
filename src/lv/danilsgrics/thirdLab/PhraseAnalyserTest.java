@@ -11,6 +11,12 @@ public class PhraseAnalyserTest {
 
         PhraseAnalyserTest testRunner = new PhraseAnalyserTest();
         testRunner.itStandsNoChanceTest();
+
+        PhraseAnalyserTest testRunner2 = new PhraseAnalyserTest();
+        testRunner2.itCouldBeWorseTest();
+
+        PhraseAnalyserTest testRunner3 = new PhraseAnalyserTest();
+        testRunner3.itIsFineReallyTest();
     }
 
     public void itStandsNoChanceTest() {
@@ -24,8 +30,30 @@ public class PhraseAnalyserTest {
         check(actualResult, expectedResult, "itStandsNoChanceTest");
     }
 
+    public void itCouldBeWorseTest() {
+        PhraseAnalyser victim = new PhraseAnalyser();
+
+        String testItCouldBeWorseTest = "Make Latvia the best";
+
+        String expectedResult = "It could be worse";
+        String actualResult = victim.analyse(testItCouldBeWorseTest);
+
+        check(actualResult, expectedResult, "itCouldBeWorseTest");
+    }
+
+    public void itIsFineReallyTest() {
+        PhraseAnalyser victim = new PhraseAnalyser();
+
+        String testItIsFineReallyTest = "Well done!";
+
+        String expectedResult = "It is fine, really";
+        String actualResult = victim.analyse(testItIsFineReallyTest);
+
+        check(actualResult, expectedResult, "itIsFineReallyTest");
+    }
+
     public void check(String actualResult, String expectedResult, String testName) {
-        if (actualResult == expectedResult) {
+        if (actualResult.equals(expectedResult)) {
             System.out.println(testName + " has passed!");
         } else {
             System.out.println(testName + " has failed!");

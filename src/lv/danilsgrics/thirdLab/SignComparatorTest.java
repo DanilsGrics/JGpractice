@@ -26,7 +26,7 @@ public class SignComparatorTest {
         }
 
         public void check(String actualResult, String expectedResult, String testName) {
-            if (actualResult == expectedResult) {
+            if (actualResult.equals(expectedResult)) {
                 System.out.println(testName + " has passed!");
             } else {
                 System.out.println(testName + " has failed!");
