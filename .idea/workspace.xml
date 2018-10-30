@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="44d2944c-4f74-4ca3-bd9b-be6d66a45bd4" name="Default Changelist" comment="Minor Changes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lv/danilsgrics/thirdLab/PhraseAnalyserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lv/danilsgrics/thirdLab/PhraseAnalyserTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lv/danilsgrics/thirdLab/SignComparatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lv/danilsgrics/thirdLab/SignComparatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lv/danilsgrics/fourthLab/BoobTube.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lv/danilsgrics/fourthLab/BoobTube.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -70,32 +69,33 @@
     <session id="-1235927127">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.17" value="2" />
           <entry key="project.open.time.21" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.open.time.23" value="1" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="28" />
+          <entry key="java" value="32" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="28" />
+          <entry key="JAVA" value="32" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="4418" />
+          <entry key="java" value="4968" />
           <entry key="txt" value="64" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4418" />
+          <entry key="JAVA" value="4968" />
           <entry key="PLAIN_TEXT" value="64" />
         </counts>
       </usages-collector>
@@ -109,9 +109,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/lv/danilsgrics/fourthLab/BoobTube.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="52" column="5" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
+            <state relative-caret-position="245">
+              <caret line="92" column="22" selection-start-line="92" selection-start-column="22" selection-end-line="92" selection-end-column="22" />
               <folding>
+                <element signature="imports" expanded="true" />
                 <element signature="e#255#256#0" expanded="true" />
                 <element signature="e#292#293#0" expanded="true" />
                 <element signature="e#334#335#0" expanded="true" />
@@ -120,19 +121,28 @@
                 <element signature="e#449#450#0" expanded="true" />
                 <element signature="e#483#484#0" expanded="true" />
                 <element signature="e#516#517#0" expanded="true" />
-                <element signature="e#552#553#0" expanded="true" />
-                <element signature="e#585#586#0" expanded="true" />
-                <element signature="e#640#641#0" expanded="true" />
-                <element signature="e#692#693#0" expanded="true" />
-                <element signature="e#757#758#0" expanded="true" />
-                <element signature="e#817#818#0" expanded="true" />
-                <element signature="e#873#874#0" expanded="true" />
-                <element signature="e#921#922#0" expanded="true" />
-                <element signature="e#970#971#0" expanded="true" />
-                <element signature="e#1014#1015#0" expanded="true" />
-                <element signature="e#1063#1064#0" expanded="true" />
-                <element signature="e#1103#1104#0" expanded="true" />
+                <element signature="e#1159#1160#0" expanded="true" />
+                <element signature="e#1188#1189#0" expanded="true" />
+                <element signature="e#1248#1249#0" expanded="true" />
+                <element signature="e#1280#1281#0" expanded="true" />
+                <element signature="e#1340#1341#0" expanded="true" />
+                <element signature="e#1372#1373#0" expanded="true" />
+                <element signature="e#1348#1349#0" expanded="true" />
+                <element signature="e#1384#1385#0" expanded="true" />
+                <element signature="e#1428#1429#0" expanded="true" />
+                <element signature="e#1468#1469#0" expanded="true" />
+                <element signature="e#1502#1503#0" expanded="true" />
+                <element signature="e#1533#1534#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lv/danilsgrics/fourthLab/BoobTubeTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="333">
+              <caret line="27" column="21" lean-forward="true" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -203,9 +213,12 @@
         <option value="$PROJECT_DIR$/src/lv/danilsgrics/thirdLab/CreditCardTest.java" />
         <option value="$PROJECT_DIR$/src/lv/danilsgrics/fourthLab/Counter.java" />
         <option value="$PROJECT_DIR$/src/lv/danilsgrics/fourthLab/CounterTest.java" />
-        <option value="$PROJECT_DIR$/src/lv/danilsgrics/fourthLab/BoobTube.java" />
         <option value="$PROJECT_DIR$/src/lv/danilsgrics/thirdLab/PhraseAnalyserTest.java" />
         <option value="$PROJECT_DIR$/src/lv/danilsgrics/thirdLab/SignComparatorTest.java" />
+        <option value="$PROJECT_DIR$/src/lv/danilsgrics/fourthLab/BoobTubeTest.java" />
+        <option value="$PROJECT_DIR$/src/lv/danilsgrics/fourthLab/SmartPhone.java" />
+        <option value="$PROJECT_DIR$/src/lv/danilsgrics/fourthLab/SmartPhoneTest.java" />
+        <option value="$PROJECT_DIR$/src/lv/danilsgrics/fourthLab/BoobTube.java" />
       </list>
     </option>
   </component>
@@ -222,8 +235,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="842" />
-    <option name="width" value="1087" />
+    <option name="x" value="-8" />
+    <option name="width" value="977" />
     <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -232,7 +245,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -269,13 +282,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540763409948" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540908224482" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -301,7 +314,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PhraseAnalyserTest">
+  <component name="RunManager" selected="Application.BoobTubeTest">
+    <configuration name="BoobTubeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lv.danilsgrics.fourthLab.BoobTubeTest" />
+      <module name="JGpractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lv.danilsgrics.fourthLab.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CounterTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lv.danilsgrics.fourthLab.CounterTest" />
       <module name="JGpractice" />
@@ -341,25 +367,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StockTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lv.danilsgrics.thirdLab.StockTest" />
+    <configuration name="SmartPhoneTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lv.danilsgrics.fourthLab.SmartPhoneTest" />
       <module name="JGpractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lv.danilsgrics.thirdLab.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lv.danilsgrics.thirdLab.UserTest" />
-      <module name="JGpractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lv.danilsgrics.thirdLab.*" />
+          <option name="PATTERN" value="lv.danilsgrics.fourthLab.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -368,19 +381,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.StockTest" />
-      <item itemvalue="Application.UserTest" />
       <item itemvalue="Application.CreditCardTest" />
       <item itemvalue="Application.CounterTest" />
       <item itemvalue="Application.PhraseAnalyserTest" />
+      <item itemvalue="Application.BoobTubeTest" />
+      <item itemvalue="Application.SmartPhoneTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BoobTubeTest" />
+        <item itemvalue="Application.SmartPhoneTest" />
         <item itemvalue="Application.PhraseAnalyserTest" />
         <item itemvalue="Application.CounterTest" />
         <item itemvalue="Application.CreditCardTest" />
-        <item itemvalue="Application.UserTest" />
-        <item itemvalue="Application.StockTest" />
       </list>
     </recent_temporary>
   </component>
@@ -410,7 +423,8 @@
       <workItem from="1540213589496" duration="17879000" />
       <workItem from="1540301964436" duration="435000" />
       <workItem from="1540309066840" duration="4806000" />
-      <workItem from="1540758878549" duration="2003000" />
+      <workItem from="1540758878549" duration="2899000" />
+      <workItem from="1540905122719" duration="3085000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1539781564285</created>
@@ -455,7 +469,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59740000" />
+    <option name="totallyTimeSpent" value="63721000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -470,7 +484,7 @@
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49929875" visible="true" weight="0.18724832" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49929875" visible="true" weight="0.17986578" />
       <window_info id="Structure" order="1" sideWeight="0.50070125" side_tool="true" weight="0.24161074" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -482,13 +496,13 @@
       <window_info anchor="bottom" id="Debug" order="2" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
-      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.55369127" visible="true" weight="0.17762238" />
+      <window_info active="true" anchor="bottom" id="Run" order="5" sideWeight="0.552349" visible="true" weight="0.34405595" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4986577" weight="0.32867134" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49932885" weight="0.32867134" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4986577" weight="0.32867134" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.44630873" side_tool="true" visible="true" weight="0.17762238" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.4919463" weight="0.32867134" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.447651" side_tool="true" visible="true" weight="0.34405595" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49127516" weight="0.32867134" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Theme Preview" order="1" />
       <window_info anchor="right" id="Capture Analysis" order="2" />
@@ -746,13 +760,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lv/danilsgrics/fourthLab/CounterTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="31" column="51" selection-start-line="31" selection-start-column="51" selection-end-line="31" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/lv/danilsgrics/thirdLab/CreditCard.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
@@ -795,11 +802,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/lv/danilsgrics/fourthLab/CounterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lv/danilsgrics/fourthLab/SmartPhoneTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="36" column="1" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lv/danilsgrics/fourthLab/SmartPhone.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2596">
+          <caret line="118" column="1" selection-start-line="118" selection-start-column="1" selection-end-line="118" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lv/danilsgrics/fourthLab/BoobTubeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="27" column="21" lean-forward="true" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/lv/danilsgrics/fourthLab/BoobTube.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="52" column="5" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
+        <state relative-caret-position="245">
+          <caret line="92" column="22" selection-start-line="92" selection-start-column="22" selection-end-line="92" selection-end-column="22" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="e#255#256#0" expanded="true" />
             <element signature="e#292#293#0" expanded="true" />
             <element signature="e#334#335#0" expanded="true" />
@@ -808,18 +844,18 @@
             <element signature="e#449#450#0" expanded="true" />
             <element signature="e#483#484#0" expanded="true" />
             <element signature="e#516#517#0" expanded="true" />
-            <element signature="e#552#553#0" expanded="true" />
-            <element signature="e#585#586#0" expanded="true" />
-            <element signature="e#640#641#0" expanded="true" />
-            <element signature="e#692#693#0" expanded="true" />
-            <element signature="e#757#758#0" expanded="true" />
-            <element signature="e#817#818#0" expanded="true" />
-            <element signature="e#873#874#0" expanded="true" />
-            <element signature="e#921#922#0" expanded="true" />
-            <element signature="e#970#971#0" expanded="true" />
-            <element signature="e#1014#1015#0" expanded="true" />
-            <element signature="e#1063#1064#0" expanded="true" />
-            <element signature="e#1103#1104#0" expanded="true" />
+            <element signature="e#1159#1160#0" expanded="true" />
+            <element signature="e#1188#1189#0" expanded="true" />
+            <element signature="e#1248#1249#0" expanded="true" />
+            <element signature="e#1280#1281#0" expanded="true" />
+            <element signature="e#1340#1341#0" expanded="true" />
+            <element signature="e#1372#1373#0" expanded="true" />
+            <element signature="e#1348#1349#0" expanded="true" />
+            <element signature="e#1384#1385#0" expanded="true" />
+            <element signature="e#1428#1429#0" expanded="true" />
+            <element signature="e#1468#1469#0" expanded="true" />
+            <element signature="e#1502#1503#0" expanded="true" />
+            <element signature="e#1533#1534#0" expanded="true" />
           </folding>
         </state>
       </provider>

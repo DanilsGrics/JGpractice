@@ -1,5 +1,8 @@
 package lv.danilsgrics.fourthLab;
 
+import javax.management.ObjectName;
+import java.util.Objects;
+
 public class BoobTube {
 
     private int currentChannel;
@@ -44,11 +47,55 @@ public class BoobTube {
         this.screenSize = screenSize;
     }
 
-    public void setIsTurnedOn(boolean turnedOn) {
-        this.turnedOn = turnedOn;
+    public void nextChannel () {
+        currentChannel++;
     }
 
-    //public int nextChannel (int nextChannel) {
-//
-   // }
+    public void previousChannel () {
+        currentChannel--;
+    }
+
+    public void increaseVolume () {
+        currentVolumeLevel++;
+    }
+
+    public void decreaseVolume () {
+        currentVolumeLevel--;
+    }
+
+    public void turnOn() {
+        turnedOn = true;
+    }
+
+    public void turnOff() {
+        turnedOn = false;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+
+        if (this == o) return true;
+
+        if (o == null || getClass() != o.getClass()) return false;
+
+        BoobTube that = (BoobTube) o;
+
+        return Objects.equals(manufacturer, that.manufacturer) &&
+                Objects.equals(currentChannel, that.currentChannel) &&
+                Objects.equals(currentVolumeLevel, that.currentVolumeLevel) &&
+                Objects.equals(screenSize, that.screenSize) &&
+                Objects.equals(turnedOn, that.turnedOn);
+    }
+
+    @Override
+    public String toString() {
+
+        return "\n" + manufacturer + ":" +
+                "\ncurrent channel: " + currentChannel + "\n" +
+                "current volume level: " + currentVolumeLevel + "\n" +
+                "screen size: " + screenSize + "\n" +
+                "turned on: " + turnedOn;
+
+    }
+
 }
