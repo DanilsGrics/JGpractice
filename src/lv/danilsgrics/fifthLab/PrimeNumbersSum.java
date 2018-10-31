@@ -6,6 +6,7 @@ public class PrimeNumbersSum {
 
         IsOdd revisor = new IsOdd();
 
+        int knownPrimeNumbers[] = new int[100];
         int from = 1;
         int to = 500;
         int i;
@@ -16,10 +17,11 @@ public class PrimeNumbersSum {
 
             if (i == 17 || i == 71) continue;
 
-            if (revisor.revise(i)) {
+            if (revisor.revise(i,knownPrimeNumbers,primeNumberCounter)) {
                 System.out.println(i);
                 primeNumberCounter++;
                 sumOfPrimeNumbers += i;
+                knownPrimeNumbers[primeNumberCounter+1] = i;
             }
 
             if (primeNumberCounter == 50) break;
