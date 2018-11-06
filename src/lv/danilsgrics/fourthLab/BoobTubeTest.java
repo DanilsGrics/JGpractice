@@ -4,14 +4,14 @@ public class BoobTubeTest {
 
     public static void main(String[] args) {
 
-        BoobTube tv1 = new BoobTube();
-        BoobTube tv2 = new BoobTube();
+        BoobTube tv1 = new BoobTube(44, "Samsung");
+        BoobTube tv2 = new BoobTube(55, "JVC");
 
         tv1.setCurrentChannel(11);
-        tv1.setCurrentVolumeLevel(21);
-        tv1.setScreenSize(44);
-        tv1.setManufacturer("Samsung");
         tv1.turnOn();
+        tv1.setCurrentChannel(11);
+        tv1.increaseVolume();
+        tv1.increaseVolume();
 
         System.out.println(tv1);
 
@@ -21,11 +21,9 @@ public class BoobTubeTest {
 
         System.out.println(tv1);
 
-        tv2.setCurrentChannel(31);
-        tv2.setCurrentVolumeLevel(11);
-        tv2.setScreenSize(55);
-        tv2.setManufacturer("JVC");
         tv2.turnOn();
+        tv2.setCurrentChannel(31);
+        tv2.increaseVolume();
 
         System.out.println(tv2);
 

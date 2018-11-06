@@ -1,6 +1,5 @@
 package lv.danilsgrics.fourthLab;
 
-import javax.management.ObjectName;
 import java.util.Objects;
 
 public class BoobTube {
@@ -10,6 +9,11 @@ public class BoobTube {
     private String manufacturer;
     private int screenSize;
     private boolean turnedOn;
+
+    BoobTube(int screenSize, String manufacturer) {
+        this.screenSize = screenSize;
+        this.manufacturer = manufacturer;
+    }
 
     public int getCurrentChannel() {
         return currentChannel;
@@ -27,48 +31,71 @@ public class BoobTube {
         return screenSize;
     }
 
-    public boolean getIsTurnedOn () {
+    public boolean getIsTurnedOn() {
         return turnedOn;
     }
 
     public void setCurrentChannel(int currentChannel) {
-        this.currentChannel = currentChannel;
+
+        if (turnedOn && currentChannel >= 0 && currentChannel <= 999) {
+            this.currentChannel = currentChannel;
+        } else {
+            System.out.println("Unable to set channel!");
+        }
     }
 
-    public void setCurrentVolumeLevel(int currentVolumeLevel) {
-        this.currentVolumeLevel = currentVolumeLevel;
+    public void nextChannel() {
+
+        if (turnedOn) {
+            currentChannel++;
+        } else {
+            System.out.println("TV is switched off!");
+        }
     }
 
-    public void setManufacturer(String manufacturer) {
-        this.manufacturer = manufacturer;
+    public void previousChannel() {
+
+        if (turnedOn) {
+            currentChannel--;
+        } else {
+            System.out.println("TV is switched off!");
+        }
     }
 
-    public void setScreenSize(int screenSize) {
-        this.screenSize = screenSize;
+    public void increaseVolume() {
+
+        if (turnedOn && currentVolumeLevel < 100) {
+            currentVolumeLevel++;
+        } else {
+            System.out.println("Unable to increase volume!");
+        }
     }
 
-    public void nextChannel () {
-        currentChannel++;
-    }
+    public void decreaseVolume() {
 
-    public void previousChannel () {
-        currentChannel--;
-    }
-
-    public void increaseVolume () {
-        currentVolumeLevel++;
-    }
-
-    public void decreaseVolume () {
-        currentVolumeLevel--;
+        if (turnedOn && currentVolumeLevel > 0) {
+            currentVolumeLevel--;
+        } else {
+            System.out.println("Unable to decrease volume!");
+        }
     }
 
     public void turnOn() {
-        turnedOn = true;
+
+        if (turnedOn) {
+            System.out.println("TV is already working!");
+        } else {
+            turnedOn = true;
+        }
     }
 
     public void turnOff() {
-        turnedOn = false;
+
+        if (turnedOn) {
+            turnedOn = false;
+        } else {
+            System.out.println("TV is already switched off!");
+        }
     }
 
     @Override
