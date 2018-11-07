@@ -28,7 +28,5 @@ public class MathOperations {
         int divisionResult = firstValue / secondValue;
 
         System.out.println("Division result: " + divisionResult);
-
     }
-
 }

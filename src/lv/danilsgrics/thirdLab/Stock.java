@@ -7,7 +7,7 @@ public class Stock {
     double max;
     double min;
 
-    Stock (String newCompany, double newCurrentValue) {
+    Stock(String newCompany, double newCurrentValue) {
         company = newCompany;
         currentValue = newCurrentValue;
         max = newCurrentValue;
@@ -15,7 +15,7 @@ public class Stock {
     }
 
 
-    public void updatePrice (double currentValue) {
+    public void updatePrice(double currentValue) {
         if (currentValue > 0) {
 
             this.currentValue = currentValue;
@@ -29,9 +29,7 @@ public class Stock {
 
             System.out.println("Current price of " + company + " stock is updated successfully!");
             printInfo();
-        }
-
-        else {
+        } else {
             System.out.println("Error, new value of " + company + " stock cannot be negative or be equivalent to zero!\n");
         }
     }
@@ -48,7 +46,7 @@ public class Stock {
         return min;
     }
 
-    public void printInfo () {
+    public void printInfo() {
         System.out.println("Information about " + company + " stock\n" +
                 "Current value: " + getCurrentValue() + "\nMaximal value: " + getMax() +
                 "\nMinimal value: " + getMin() + "\n");

@@ -6,7 +6,5 @@ public class PrimitiveTypesTest {
 
         PrimitiveTypes primitiveTypes = new PrimitiveTypes();
         primitiveTypes.printDefaultVariableValues();
-
     }
-
 }

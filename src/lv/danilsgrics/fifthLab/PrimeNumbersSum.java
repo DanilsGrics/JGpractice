@@ -17,11 +17,11 @@ public class PrimeNumbersSum {
 
             if (i == 17 || i == 71) continue;
 
-            if (revisor.revise(i,knownPrimeNumbers,primeNumberCounter)) {
+            if (revisor.revise(i, knownPrimeNumbers, primeNumberCounter)) {
                 System.out.println(i);
                 primeNumberCounter++;
                 sumOfPrimeNumbers += i;
-                knownPrimeNumbers[primeNumberCounter+1] = i;
+                knownPrimeNumbers[primeNumberCounter + 1] = i;
             }
 
             if (primeNumberCounter == 50) break;

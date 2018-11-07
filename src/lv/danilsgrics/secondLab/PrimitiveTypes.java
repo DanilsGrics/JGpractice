@@ -35,5 +35,4 @@ public class PrimitiveTypes {
         System.out.println("Logical:");
         System.out.println("boolean = " + iBoolean);
     }
-
 }

@@ -10,6 +10,8 @@ public class LookupArrayServiceTest {
         testRunner.findMaxTest();
         testRunner.findMinTest();
         testRunner.indexOfMaxTest();
+        testRunner.indexOfMinTest();
+        testRunner.indexOfTest();
 
     }
 
@@ -40,6 +42,23 @@ public class LookupArrayServiceTest {
         check(actualResult, expectedResult, "indexOfMaxTest");
     }
 
+    public void indexOfMinTest() {
+        LookupArrayService victim = new LookupArrayService();
+
+        int expectedResult = 0;
+        int actualResult = victim.indexOfMin(array);
+
+        check(actualResult, expectedResult, "indexOfMinTest");
+    }
+
+    public void indexOfTest() {
+        LookupArrayService victim = new LookupArrayService();
+
+        int expectedResult = 6;
+        int actualResult = victim.indexOf(array, 9);
+
+        check(actualResult, expectedResult, "indexOfTest");
+    }
 
 
     public void check(int actualResult, int expectedResult, String testName) {

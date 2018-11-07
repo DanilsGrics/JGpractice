@@ -24,11 +24,10 @@ public class LightColorDetector {
             return "Orange";
         }
 
-        if (wavelength >= 620 && wavelength <=750) {
+        if (wavelength >= 620 && wavelength <= 750) {
             return "Red";
         }
 
         return "not seen due to not appropriate length of wave! Light is not visible!";
     }
-
 }

@@ -16,8 +16,7 @@ public class Dog {
         return name;
     }
 
-    void voice () {
+    void voice() {
         System.out.println("Woof, Bark, I'm " + name);
     }
-
 }

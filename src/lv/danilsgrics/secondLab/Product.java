@@ -30,11 +30,11 @@ public class Product {
         this.discount = discount;
     }
 
-    double calculateActualPrice (double regularPrice, double discount) {
-        return regularPrice - regularPrice*discount/100;
+    double calculateActualPrice(double regularPrice, double discount) {
+        return regularPrice - regularPrice * discount / 100;
     }
 
-    public void print () {
+    public void print() {
         System.out.println("Product : name = " + this.getName() + ", regular price = " + this.getRegularPrice() +
                 "EUR, discount = " + (int) this.getDiscount() + "%, actual price = " +
                 calculateActualPrice(this.getRegularPrice(), this.getDiscount()) + "EUR");

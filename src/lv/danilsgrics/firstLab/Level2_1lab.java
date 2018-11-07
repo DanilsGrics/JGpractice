@@ -24,17 +24,12 @@ public class Level2_1lab {
             System.out.print(randomNumbers[currentNumber]);
 
             //Some punctuation for visually enjoyable print
-            if ((currentNumber+1) != randomNumbers.length) {
+            if ((currentNumber + 1) != randomNumbers.length) {
                 System.out.print(", ");
-            }
-
-            else {
+            } else {
                 System.out.println("\nSum of random numbers is: " + sumOfRandomNumbers);
             }
-
         }
-
     }
-
 }
 

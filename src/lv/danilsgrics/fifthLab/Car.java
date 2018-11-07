@@ -76,7 +76,6 @@ public class Car {
     }
 
     public boolean isStopped() {
-            return !isDriving();
+        return !isDriving();
     }
-
 }

@@ -12,7 +12,5 @@ public class DogTest {
 
         System.out.println("My dog's new name " + myDog.getName());
         myDog.voice();
-
     }
-
 }

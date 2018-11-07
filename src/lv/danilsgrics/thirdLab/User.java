@@ -6,7 +6,7 @@ public class User {
     private int loginAttemptsLeft = 3;
     private boolean blocked;
 
-    User (String Nickname, String Password) {
+    User(String Nickname, String Password) {
         setNickname(Nickname);
         setPassword(Password);
     }
@@ -63,7 +63,7 @@ public class User {
         return false;
     }
 
-    public void printUser () {
+    public void printUser() {
         System.out.println("\nInformation about user " + getNickname() + "\n" +
                 "Password: " + getPassword() + "\nLogin Attempts left: " + getLoginAttemptsLeft() +
                 "\nIs blocked: " + getBlockedState() + "\n");

@@ -46,7 +46,7 @@ public class LookupArrayService {
             maximalValue = array[0];
 
             for (int i = 0; i < array.length; i++) {
-                if (maximalValue < array[i]) {
+                if (maximalValue <= array[i]) {
                     maximalValue = array[i];
                     indexOfMaxValue = i;
                 }
@@ -65,7 +65,7 @@ public class LookupArrayService {
             minimalValue = array[0];
 
             for (int i = 0; i < array.length; i++) {
-                if (minimalValue > array[i]) {
+                if (minimalValue >= array[i]) {
                     minimalValue = array[i];
                     indexOfMinValue = i;
                 }

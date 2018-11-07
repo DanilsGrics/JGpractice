@@ -11,6 +11,5 @@ public class CircleTest {
         System.out.println("The area of circle with radius " +
                 circle.getRadius() + "(length units) is " + circle.calculateArea() +
                 "(square units)");
-
     }
 }

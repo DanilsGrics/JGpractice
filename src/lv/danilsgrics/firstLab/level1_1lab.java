@@ -18,7 +18,7 @@ public class level1_1lab {
         System.out.print("Type second number, please: ");
         secondNumber = scan.nextFloat();
 
-        for (;;) {
+        for (; ; ) {
 
             System.out.print("Type command you need (sum, sub, div, mul), please: ");
             action = scan.next();
@@ -41,16 +41,11 @@ public class level1_1lab {
             if (action.equals("mul")) {
                 result = firstNumber * secondNumber;
                 break;
-            }
-
-            else {
+            } else {
                 System.out.println("Unknown command, try again, please!");
             }
-
         }
 
         System.out.println("Result is: " + result);
-
     }
-
 }

@@ -38,8 +38,5 @@ public class TVController {
         return "\ncurrent channel: " + tv.getCurrentChannel() + "\n" +
                 "current volume level: " + tv.getCurrentVolumeLevel() + "\n" +
                 "turned on: " + tv.getIsTurnedOn();
-
     }
-
-
 }

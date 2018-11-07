@@ -17,6 +17,5 @@ public class ProductTest {
 
         testProduct.print();
         testProduct2.print();
-
     }
 }
