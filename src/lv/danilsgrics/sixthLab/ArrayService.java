@@ -9,6 +9,7 @@ public class ArrayService {
     public void arrayFilling(int[] array) {
 
         for (int i = 0; i < array.length; i++) {
+
             array[array.length - 1 - i] = i + 1;
         }
     }
@@ -18,6 +19,7 @@ public class ArrayService {
         System.out.println();
 
         for (int i = 0; i < array.length; i++) {
+
             System.out.print(array[i] + "; ");
         }
 
@@ -29,6 +31,7 @@ public class ArrayService {
         int sumOfElements = 0;
 
         for (int i = 0; i < array.length; i++) {
+
             sumOfElements += array[i];
         }
 
@@ -38,8 +41,11 @@ public class ArrayService {
     public void arraySortingAscending(int[] array) {
 
         for (int j = 0; j < array.length; j++) {
+
             for (int i = 0; i < array.length - 1; i++) {
+
                 if (array[i] > array[i + 1]) {
+
                     int temp = array[i];
                     array[i] = array[i + 1];
                     array[i + 1] = temp;
@@ -58,6 +64,7 @@ public class ArrayService {
             halfOfArray = array.length / 2;
 
             for (int i = 0; i < halfOfArray; i++) {
+
                 temp = array[i];
                 array[i] = array[array.length - 1 - i];
                 array[array.length - 1 - i] = temp;
@@ -69,6 +76,7 @@ public class ArrayService {
             halfOfArray = (array.length - 1) / 2;
 
             for (int i = 0; i < halfOfArray; i++) {
+
                 temp = array[i];
                 array[i] = array[array.length - 1 - i];
                 array[array.length - 1 - i] = temp;
