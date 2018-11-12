@@ -16,6 +16,7 @@ public class LookupArrayServiceTest {
     }
 
     public void findMaxTest() {
+
         LookupArrayService victim = new LookupArrayService();
 
         int expectedResult = 90;
@@ -25,6 +26,7 @@ public class LookupArrayServiceTest {
     }
 
     public void findMinTest() {
+
         LookupArrayService victim = new LookupArrayService();
 
         int expectedResult = 1;
@@ -34,6 +36,7 @@ public class LookupArrayServiceTest {
     }
 
     public void indexOfMaxTest() {
+
         LookupArrayService victim = new LookupArrayService();
 
         int expectedResult = 7;
@@ -43,6 +46,7 @@ public class LookupArrayServiceTest {
     }
 
     public void indexOfMinTest() {
+
         LookupArrayService victim = new LookupArrayService();
 
         int expectedResult = 0;
@@ -52,6 +56,7 @@ public class LookupArrayServiceTest {
     }
 
     public void indexOfTest() {
+
         LookupArrayService victim = new LookupArrayService();
 
         int expectedResult = 6;
@@ -62,9 +67,12 @@ public class LookupArrayServiceTest {
 
 
     public void check(int actualResult, int expectedResult, String testName) {
+
         if (actualResult == expectedResult) {
+
             System.out.println(testName + " has passed!");
         } else {
+
             System.out.println(testName + " has failed!");
             System.out.println("Expected " + expectedResult + " but was " + actualResult);
         }

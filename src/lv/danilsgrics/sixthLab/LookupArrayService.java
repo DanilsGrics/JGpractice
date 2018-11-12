@@ -11,11 +11,14 @@ public class LookupArrayService {
             maximalValue = array[0];
 
             for (int i = 0; i < array.length; i++) {
+
                 if (maximalValue < array[i]) {
+
                     maximalValue = array[i];
                 }
             }
         }
+
         return maximalValue;
     }
 
@@ -28,11 +31,14 @@ public class LookupArrayService {
             minimalValue = array[0];
 
             for (int i = 0; i < array.length; i++) {
+
                 if (minimalValue > array[i]) {
+
                     minimalValue = array[i];
                 }
             }
         }
+
         return minimalValue;
     }
 
@@ -45,11 +51,14 @@ public class LookupArrayService {
             indexOfMaxValue = 0;
 
             for (int i = 0; i < array.length; i++) {
+
                 if (array[indexOfMaxValue] <= array[i]) {
+
                     indexOfMaxValue = i;
                 }
             }
         }
+
         return indexOfMaxValue;
     }
 
@@ -62,11 +71,14 @@ public class LookupArrayService {
             indexOfMinValue = 0;
 
             for (int i = 0; i < array.length; i++) {
+
                 if (array[indexOfMinValue] >= array[i]) {
+
                     indexOfMinValue = i;
                 }
             }
         }
+
         return indexOfMinValue;
     }
 
@@ -77,12 +89,15 @@ public class LookupArrayService {
         if (array.length > 0) {
 
             for (int i = 0; i < array.length; i++) {
+
                 if (value == array[i]) {
+
                     indexOfValue = i;
                     break;
                 }
             }
         }
+
         return indexOfValue;
     }
 

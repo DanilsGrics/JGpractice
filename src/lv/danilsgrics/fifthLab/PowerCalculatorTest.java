@@ -11,6 +11,7 @@ public class PowerCalculatorTest {
     }
 
     public void powTestExpected256() {
+
         PowerCalculator victim = new PowerCalculator();
 
         long expectedResult = 256;
@@ -20,6 +21,7 @@ public class PowerCalculatorTest {
     }
 
     public void powTestExpected1073741824() {
+
         PowerCalculator victim = new PowerCalculator();
 
         long expectedResult = 1073741824;
@@ -30,6 +32,7 @@ public class PowerCalculatorTest {
 
 
     public void check(long actualResult, long expectedResult, String testName) {
+
         if (actualResult == expectedResult) {
             System.out.println(testName + " has passed!");
         } else {
