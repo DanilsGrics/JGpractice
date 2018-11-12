@@ -2,7 +2,11 @@ package lv.danilsgrics.fourthLab;
 
 public class TVController {
 
-    BoobTube tv = new BoobTube(44, "Samsung");
+    private BoobTube tv;
+
+    TVController(BoobTube tv) {
+        this.tv = tv;
+    }
 
     public void nextChannelFromRemote() {
         tv.nextChannel();

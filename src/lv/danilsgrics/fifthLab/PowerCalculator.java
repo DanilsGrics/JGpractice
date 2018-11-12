@@ -12,9 +12,4 @@ public class PowerCalculator {
         }
         return result;
     }
-
-    public void printResult(long number, long power) {
-
-        System.out.println("\nPower " + power + " of " + number + " is " + pow(number, power));
-    }
 }

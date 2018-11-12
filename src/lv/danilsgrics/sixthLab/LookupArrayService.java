@@ -39,15 +39,13 @@ public class LookupArrayService {
     public int indexOfMax(int[] array) {
 
         int indexOfMaxValue = -1;
-        int maximalValue;
 
         if (array.length > 0) {
 
-            maximalValue = array[0];
+            indexOfMaxValue = 0;
 
             for (int i = 0; i < array.length; i++) {
-                if (maximalValue <= array[i]) {
-                    maximalValue = array[i];
+                if (array[indexOfMaxValue] <= array[i]) {
                     indexOfMaxValue = i;
                 }
             }
@@ -58,15 +56,13 @@ public class LookupArrayService {
     public int indexOfMin(int[] array) {
 
         int indexOfMinValue = -1;
-        int minimalValue;
 
         if (array.length > 0) {
 
-            minimalValue = array[0];
+            indexOfMinValue = 0;
 
             for (int i = 0; i < array.length; i++) {
-                if (minimalValue >= array[i]) {
-                    minimalValue = array[i];
+                if (array[indexOfMinValue] >= array[i]) {
                     indexOfMinValue = i;
                 }
             }

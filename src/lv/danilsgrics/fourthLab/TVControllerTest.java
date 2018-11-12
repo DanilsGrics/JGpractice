@@ -4,7 +4,9 @@ public class TVControllerTest {
 
     public static void main(String[] args) {
 
-        TVController remote = new TVController();
+        BoobTube tv = new BoobTube(44, "Samsung");
+
+        TVController remote = new TVController(tv);
 
         remote.setCurrentChannelFromRemote(11); //Will be unreal cause TV is not switched ON
         remote.turnOnFromRemote();
