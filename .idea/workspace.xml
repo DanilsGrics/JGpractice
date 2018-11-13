@@ -7,14 +7,6 @@
   <component name="ChangeListManager">
     <list default="true" id="44d2944c-4f74-4ca3-bd9b-be6d66a45bd4" name="Default Changelist" comment="Minor Changes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JGpractice/lv/danilsgrics/fifthLab/PowerCalculatorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JGpractice/lv/danilsgrics/fifthLab/PowerCalculatorTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JGpractice/lv/danilsgrics/sixthLab/ArrayService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JGpractice/lv/danilsgrics/sixthLab/ArrayService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JGpractice/lv/danilsgrics/sixthLab/LookupArrayService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JGpractice/lv/danilsgrics/sixthLab/LookupArrayService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JGpractice/lv/danilsgrics/sixthLab/LookupArrayServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JGpractice/lv/danilsgrics/sixthLab/LookupArrayServiceTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lv/danilsgrics/fifthLab/PowerCalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lv/danilsgrics/fifthLab/PowerCalculatorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lv/danilsgrics/sixthLab/ArrayService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lv/danilsgrics/sixthLab/ArrayService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lv/danilsgrics/sixthLab/LookupArrayService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lv/danilsgrics/sixthLab/LookupArrayService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lv/danilsgrics/sixthLab/LookupArrayServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lv/danilsgrics/sixthLab/LookupArrayServiceTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -80,9 +72,10 @@
     <session id="-1235927127">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="16" />
+          <entry key="project.closed" value="18" />
           <entry key="project.open.time.1" value="3" />
-          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.12" value="2" />
+          <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.17" value="4" />
           <entry key="project.open.time.18" value="1" />
@@ -90,28 +83,28 @@
           <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.21" value="2" />
           <entry key="project.open.time.23" value="3" />
-          <entry key="project.opened" value="17" />
+          <entry key="project.opened" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="224" />
+          <entry key="java" value="241" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="224" />
+          <entry key="JAVA" value="241" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="15726" />
+          <entry key="java" value="16196" />
           <entry key="txt" value="64" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="15726" />
+          <entry key="JAVA" value="16196" />
           <entry key="PLAIN_TEXT" value="64" />
         </counts>
       </usages-collector>
@@ -121,26 +114,7 @@
     <favorites_list name="1lab" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/lv/danilsgrics/sixthLab/IsPalindrome.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" column="29" lean-forward="true" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lv/danilsgrics/sixthLab/IsPalindromeTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="12" column="67" selection-start-line="12" selection-start-column="67" selection-end-line="12" selection-end-column="67" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -178,7 +152,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/lv/danilsgrics/thirdLab/CreditCardTest.java" />
         <option value="$PROJECT_DIR$/src/lv/danilsgrics/fourthLab/CounterTest.java" />
         <option value="$PROJECT_DIR$/src/lv/danilsgrics/thirdLab/PhraseAnalyserTest.java" />
         <option value="$PROJECT_DIR$/src/lv/danilsgrics/fourthLab/SmartPhone.java" />
@@ -229,6 +202,7 @@
         <option value="$PROJECT_DIR$/src/lv/danilsgrics/fifthLab/PowerCalculatorTest.java" />
         <option value="$PROJECT_DIR$/src/lv/danilsgrics/sixthLab/IsPalindromeTest.java" />
         <option value="$PROJECT_DIR$/src/lv/danilsgrics/sixthLab/IsPalindrome.java" />
+        <option value="$PROJECT_DIR$/src/lv/danilsgrics/sixthLab/ShowArrayValuesInBounds.java" />
       </list>
     </option>
   </component>
@@ -244,9 +218,9 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="666" />
-    <option name="width" value="1263" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="700" />
+    <option name="width" value="1229" />
     <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -273,13 +247,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="danilsgrics" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="JGpractice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JGpractice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="danilsgrics" type="462c0819:PsiDirectoryNode" />
-              <item name="sixthLab" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -291,7 +258,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542053319577" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542127716929" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../jg-java-1-2018" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -317,7 +284,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.IsPalindromeTest">
+  <component name="RunManager" selected="Application.ShowArrayValuesInBounds">
     <configuration name="ArrayServiceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lv.danilsgrics.sixthLab.ArrayServiceTest" />
       <module name="JGpractice" />
@@ -344,12 +311,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LookupArrayServiceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lv.danilsgrics.sixthLab.LookupArrayServiceTest" />
+    <configuration name="PowerCalculatorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lv.danilsgrics.fifthLab.PowerCalculatorTest" />
       <module name="JGpractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lv.danilsgrics.sixthLab.*" />
+          <option name="PATTERN" value="lv.danilsgrics.fifthLab.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -357,12 +324,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PowerCalculatorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lv.danilsgrics.fifthLab.PowerCalculatorTest" />
+    <configuration name="ShowArrayValuesInBounds" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lv.danilsgrics.sixthLab.ShowArrayValuesInBounds" />
       <module name="JGpractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lv.danilsgrics.fifthLab.*" />
+          <option name="PATTERN" value="lv.danilsgrics.sixthLab.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -385,18 +352,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.TVControllerTest" />
-      <item itemvalue="Application.LookupArrayServiceTest" />
       <item itemvalue="Application.PowerCalculatorTest" />
       <item itemvalue="Application.ArrayServiceTest" />
       <item itemvalue="Application.IsPalindromeTest" />
+      <item itemvalue="Application.ShowArrayValuesInBounds" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ShowArrayValuesInBounds" />
         <item itemvalue="Application.IsPalindromeTest" />
         <item itemvalue="Application.ArrayServiceTest" />
         <item itemvalue="Application.TVControllerTest" />
         <item itemvalue="Application.PowerCalculatorTest" />
-        <item itemvalue="Application.LookupArrayServiceTest" />
       </list>
     </recent_temporary>
   </component>
@@ -438,7 +405,9 @@
       <workItem from="1541614455549" duration="59000" />
       <workItem from="1541631945008" duration="4173000" />
       <workItem from="1541956034341" duration="8350000" />
-      <workItem from="1542047103291" duration="6104000" />
+      <workItem from="1542047103291" duration="6963000" />
+      <workItem from="1542054204687" duration="1599000" />
+      <workItem from="1542127033365" duration="1078000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1539781564285</created>
@@ -483,7 +452,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="124106000" />
+    <option name="totallyTimeSpent" value="127642000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -496,9 +465,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49929875" visible="true" weight="0.19127516" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49929875" visible="true" weight="0.21275167" />
       <window_info id="Structure" order="1" sideWeight="0.50070125" side_tool="true" weight="0.24161074" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -510,7 +478,7 @@
       <window_info anchor="bottom" id="Debug" order="2" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
-      <window_info active="true" anchor="bottom" id="Run" order="5" sideWeight="0.54228187" visible="true" weight="0.26993006" />
+      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.54228187" weight="0.2970297" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4986577" weight="0.32867134" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49932885" weight="0.32867134" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
@@ -601,34 +569,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/lv/danilsgrics/secondLab/CarTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="4" column="44" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lv/danilsgrics/secondLab/ReferenceTypesTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="52" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lv/danilsgrics/secondLab/ReferenceTypes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-274">
-          <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lv/danilsgrics/secondLab/ProductTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/lv/danilsgrics/secondLab/Product.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
@@ -916,13 +856,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lv/danilsgrics/sixthLab/ArrayServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/lv/danilsgrics/fifthLab/PowerCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
@@ -935,24 +868,62 @@
         <state relative-caret-position="-66" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lv/danilsgrics/sixthLab/ArrayService.java">
+    <entry file="file://$PROJECT_DIR$/src/lv/danilsgrics/sixthLab/IsPalindromeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-164">
-          <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+        <state relative-caret-position="-176">
+          <caret line="12" column="67" selection-start-line="12" selection-start-column="67" selection-end-line="12" selection-end-column="67" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lv/danilsgrics/sixthLab/IsPalindromeTest.java">
+    <entry file="file://$PROJECT_DIR$/src/lv/danilsgrics/sixthLab/ArrayServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="12" column="67" selection-start-line="12" selection-start-column="67" selection-end-line="12" selection-end-column="67" />
+        <state relative-caret-position="506">
+          <caret line="23" column="22" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lv/danilsgrics/firstLab/MathOperations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lv/danilsgrics/firstLab/Level2_1lab.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lv/danilsgrics/firstLab/level1_1lab.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="44" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lv/danilsgrics/sixthLab/ArrayService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-983">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lv/danilsgrics/sixthLab/IsPalindrome.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="29" lean-forward="true" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+        <state relative-caret-position="110">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lv/danilsgrics/sixthLab/ShowArrayValuesInBounds.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-132">
+          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
