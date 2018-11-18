@@ -5,21 +5,21 @@ import java.util.Scanner;
 
 public class ShowArrayValuesInBounds {
 
-    public static void main(String[] args) {
+    public void runRangeProcessor() {
 
         Random randomGenerator = new Random();
 
         Scanner scan = new Scanner(System.in);
 
-        float[] array = new float[10];
+        float[] stockArray = new float[10];
 
         System.out.print("Stock array: ");
 
-        for (int i = 0; i < array.length; i++) {
+        for (int i = 0; i < stockArray.length; i++) {
 
-            array[i] = randomGenerator.nextInt(101);
+            stockArray[i] = randomGenerator.nextInt(101);
 
-            System.out.print(array[i] + "; ");
+            System.out.print(stockArray[i] + "; ");
         }
 
         System.out.print("\nType left bound, please: ");
@@ -28,17 +28,27 @@ public class ShowArrayValuesInBounds {
         System.out.print("Type right bound, please: ");
         float rightBound = scan.nextFloat();
 
-        float[] tempArray = new float[array.length];
-
         System.out.print("Array with figures in bounds: ");
 
+        int sizeOfTempArray = 0;
+
+        for (int i = 0; i < stockArray.length; i++) {
+
+            if (stockArray[i] >= leftBound && stockArray[i] <= rightBound) {
+
+                sizeOfTempArray++;
+
+            }
+        }
+
+        float[] tempArray = new float[sizeOfTempArray];
         int j = 0;
 
-        for (int i = 0; i < array.length; i++) {
+        for (int i = 0; i < stockArray.length; i++) {
 
-            if (array[i] >= leftBound && array[i] <= rightBound) {
+            if (stockArray[i] >= leftBound && stockArray[i] <= rightBound) {
 
-                tempArray[j] = array[i];
+                tempArray[j] = stockArray[i];
 
                 System.out.print(tempArray[j] + "; ");
                 j++;
