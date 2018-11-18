@@ -1,0 +1,41 @@
+package lv.danilsgrics.seventhLab;
+
+import java.util.Objects;
+
+public class Bus extends Car {
+
+    protected int countOfSeats;
+
+    public Bus(String manufacturer, String model, int weight,
+               int yearOfManufacture, boolean allWheelDrive, int countOfSeats) {
+        super(manufacturer, model, weight, yearOfManufacture, allWheelDrive);
+        this.countOfSeats = countOfSeats;
+    }
+
+    @Override
+    public String toString() {
+        return "Bus{" + "manufacturer: " + manufacturer +
+                ", model: " + model + ", weight: " + weight +
+                " KG, year of manufacture: " + yearOfManufacture +
+                ", has all wheel drive: " + allWheelDrive +
+                ", count of seats: " + countOfSeats + "}";
+    }
+
+    @Override
+    public boolean equals(Object o) {
+
+        if (this == o) return true;
+
+        if (o == null || getClass() != o.getClass()) return false;
+
+        Bus that = (Bus) o;
+
+        return Objects.equals(manufacturer, that.manufacturer) &&
+                Objects.equals(model, that.model) &&
+                Objects.equals(weight, that.weight) &&
+                Objects.equals(yearOfManufacture, that.yearOfManufacture) &&
+                Objects.equals(allWheelDrive, that.allWheelDrive) &&
+                Objects.equals(countOfSeats, that.countOfSeats);
+    }
+
+}
