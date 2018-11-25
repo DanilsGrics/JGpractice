@@ -1,20 +1,42 @@
 package lv.danilsgrics.eighthLab;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 public class UniqueWordCounterTest {
 
     public static void main(String[] args) {
 
-        UniqueWordCounter wordCounter = new UniqueWordCounter();
+        UniqueWordCounterTest testRunner = new UniqueWordCounterTest();
 
-        wordCounter.addWord("001", "apple");
-        wordCounter.addWord("002", "apple");
-        wordCounter.addWord("003", "mango");
-        wordCounter.addWord("004", "mango");
-        wordCounter.addWord("005", "lemon");
-        wordCounter.printToConsole();
-        wordCounter.getMostPopularEntry();
-        wordCounter.addWord("002", "lemon");
-        wordCounter.printToConsole();
-        wordCounter.getMostPopularEntry();
+
+        testRunner.uniqueElementsAppleAndMangoExpected();
+    }
+
+    public void uniqueElementsAppleAndMangoExpected() {
+
+        UniqueWordCounter victim = new UniqueWordCounter();
+
+        victim.addWord("apple");
+        victim.addWord("apple");
+        victim.addWord("mango");
+        victim.addWord("mango");
+        victim.addWord("lemon");
+
+        List<String> expectedResult = new ArrayList(Arrays.asList("apple", "mango"));
+        List<String> actualResult = victim.getMostPopularEntries();
+
+        check(actualResult, expectedResult, "uniqueElementsAppleAndMangoExpected");
+    }
+
+    public void check(List actualResult, List expectedResult, String testName) {
+
+        if (actualResult.equals(expectedResult)) {
+            System.out.println(testName + " has passed!");
+        } else {
+            System.out.println(testName + " has failed!");
+            System.out.println("Expected " + expectedResult + " but was " + actualResult);
+        }
     }
 }

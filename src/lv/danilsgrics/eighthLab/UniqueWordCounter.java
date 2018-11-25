@@ -1,40 +1,37 @@
 package lv.danilsgrics.eighthLab;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 public class UniqueWordCounter {
 
-    Map<String, String> strings = new HashMap<>();
+    private Map<String, Integer> strings = new HashMap<>();
 
-    public void addWord(String key, String string) {
+    public void addWord(String string) {
 
         if (!string.isEmpty()) {
 
-            strings.put(key, string);
+            if(!strings.containsKey(string)) strings.put(string, 1);
+            else strings.put(string, (strings.get(string) + 1));
         }
     }
 
-    public ArrayList getMostPopularEntry() {
+    public List<String> getMostPopularEntries() {
 
-        ArrayList mostFrequent = new ArrayList();
+        List<String> mostFrequent = new ArrayList();
+        int highestFrequency = 0;
 
-        int counter = 0;
-        for (String key : strings.keySet()) {
-            if (Collections.frequency(strings.values(), strings.get(key)) > counter) {
-                counter = Collections.frequency(strings.values(), strings.get(key));
-            }
+        for (String count : strings.keySet()) {
+
+            if(strings.get(count) > highestFrequency) highestFrequency++;
         }
 
-        for (String key : strings.keySet()) {
-            if (Collections.frequency(strings.values(), strings.get(key)) == counter) {
-                if (!mostFrequent.contains(strings.get(key))) mostFrequent.add(strings.get(key));
-            }
-        }
+        for (String count : strings.keySet()) {
 
-        System.out.println("The most popular are: " + mostFrequent);
+            if(strings.get(count) == highestFrequency) mostFrequent.add(count);
+        }
 
         return mostFrequent;
     }
