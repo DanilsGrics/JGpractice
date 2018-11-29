@@ -5,22 +5,24 @@ import java.util.List;
 
 public class Library {
 
-    List<Book> books = new ArrayList<>();
 
-    public void addBook(String author, String title) {
+    private List<Book> books = new ArrayList<>();
 
-        if (!books.contains(new Book(author, title))) {
 
-            books.add(new Book(author, title));
+    public void addBook(Book book) {
+
+        if (!books.contains(book)) {
+
+            books.add(book);
             System.out.println("Book added successfully!");
         }
     }
 
-    public void deleteBook(String author, String title) {
+    public void deleteBook(Book book) {
 
-        if (books.contains(new Book(author, title))) {
+        if (books.contains(book)) {
 
-            books.remove(new Book(author, title));
+            books.remove(book);
             System.out.println("Book removed successfully!");
         }
     }

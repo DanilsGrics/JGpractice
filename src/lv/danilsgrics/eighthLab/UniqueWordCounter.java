@@ -1,8 +1,6 @@
 package lv.danilsgrics.eighthLab;
 
-import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
 public class UniqueWordCounter {
@@ -13,24 +11,24 @@ public class UniqueWordCounter {
 
         if (!string.isEmpty()) {
 
-            if(!strings.containsKey(string)) strings.put(string, 1);
+            if (!strings.containsKey(string)) strings.put(string, 1);
             else strings.put(string, (strings.get(string) + 1));
         }
     }
 
-    public List<String> getMostPopularEntries() {
+    public String getMostPopularEntries() {
 
-        List<String> mostFrequent = new ArrayList();
+        String mostFrequent = "";
         int highestFrequency = 0;
 
         for (String count : strings.keySet()) {
 
-            if(strings.get(count) > highestFrequency) highestFrequency++;
+            if (strings.get(count) > highestFrequency) highestFrequency = strings.get(count);
         }
 
-        for (String count : strings.keySet()) {
+        for (String currentString : strings.keySet()) {
 
-            if(strings.get(count) == highestFrequency) mostFrequent.add(count);
+            if (strings.get(currentString) == highestFrequency) mostFrequent = currentString;
         }
 
         return mostFrequent;

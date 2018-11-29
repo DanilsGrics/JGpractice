@@ -36,6 +36,12 @@ public class Product {
     }
 
     @Override
+    public int hashCode()
+    {
+        return name.hashCode() + price.hashCode();
+    }
+
+    @Override
     public String toString() {
 
         return "\nName of product: " + name + ", price: " + price + "EUR";

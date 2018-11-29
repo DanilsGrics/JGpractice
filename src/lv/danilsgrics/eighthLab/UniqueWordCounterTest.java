@@ -1,9 +1,5 @@
 package lv.danilsgrics.eighthLab;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-
 public class UniqueWordCounterTest {
 
     public static void main(String[] args) {
@@ -11,26 +7,25 @@ public class UniqueWordCounterTest {
         UniqueWordCounterTest testRunner = new UniqueWordCounterTest();
 
 
-        testRunner.uniqueElementsAppleAndMangoExpected();
+        testRunner.uniqueElementAppleExpectedTest();
     }
 
-    public void uniqueElementsAppleAndMangoExpected() {
+    public void uniqueElementAppleExpectedTest() {
 
         UniqueWordCounter victim = new UniqueWordCounter();
 
         victim.addWord("apple");
         victim.addWord("apple");
         victim.addWord("mango");
-        victim.addWord("mango");
-        victim.addWord("lemon");
+        victim.printToConsole();
 
-        List<String> expectedResult = new ArrayList(Arrays.asList("apple", "mango"));
-        List<String> actualResult = victim.getMostPopularEntries();
+        String expectedResult = "apple";
+        String actualResult = victim.getMostPopularEntries();
 
-        check(actualResult, expectedResult, "uniqueElementsAppleAndMangoExpected");
+        check(actualResult, expectedResult, "uniqueElementAppleExpectedTest");
     }
 
-    public void check(List actualResult, List expectedResult, String testName) {
+    public void check(String actualResult, String expectedResult, String testName) {
 
         if (actualResult.equals(expectedResult)) {
             System.out.println(testName + " has passed!");

@@ -39,4 +39,10 @@ public class Book {
         return Objects.equals(author, that.author) &&
                 Objects.equals(title, that.title);
     }
+
+    @Override
+    public int hashCode() {
+
+        return author.hashCode() + title.hashCode();
+    }
 }

@@ -14,33 +14,22 @@ public class Shop {
     }
 
 
-    List<Product> products = new ArrayList<>();
+    private List<Product> products = new ArrayList<>();
 
-    public void addProduct(String name, BigDecimal price) {
+    public void add(Product product) {
 
-//        BigDecimal bd = price;
-//        bd = bd.setScale(2, BigDecimal.ROUND_HALF_UP);
-
-        if (!products.contains(new Product(name, price))) {
-
-            products.add(new Product(name, price));
-            System.out.println("Product added successfully!");
-        }
+        products.add(product);
     }
 
-    public void addProductsFromList(List<Product> tempList) {
+    public void addAll(List<Product> tempList) {
 
         for (Product product : tempList) {
 
-            if (!products.contains(product)) {
-
-                products.add(product);
-                System.out.println("Product added successfully!");
-            }
+            products.add(product);
         }
     }
 
-    public void deleteProductByName(String name) {
+    public void deleteByName(String name) {
 
         for (Product product : products) {
 
@@ -50,18 +39,15 @@ public class Shop {
                 break;
             }
         }
-
-        System.out.println("Product removed successfully!");
     }
 
 
-    public Product getProductByName(String name) {
+    public Product findByName(String name) {
 
         for (Product product : products) {
 
             if (product.getName().equals(name)) {
 
-                System.out.println(product);
                 return product;
             }
         }
@@ -69,7 +55,7 @@ public class Shop {
         return null;
     }
 
-    public List getAllProductsByPrice(BigDecimal minPrice, BigDecimal maxPrice) {
+    public List<Product> findByPriceRange(BigDecimal minPrice, BigDecimal maxPrice) {
 
         List<Product> productsByPrice = new ArrayList<>();
 
@@ -80,8 +66,6 @@ public class Shop {
                 productsByPrice.add(product);
             }
         }
-
-        System.out.println(productsByPrice);
 
         return productsByPrice;
     }
